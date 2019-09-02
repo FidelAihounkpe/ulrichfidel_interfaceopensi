@@ -7,14 +7,14 @@
 
 
 body {
-    background-image: url('images/arriereplan.png')
+    background-image: url('images/arriereplan.png');
+    overflow: hidden;
 }
 .rotate-bg {
     z-index: -9000;
     background-color: #ea8362;
     position: absolute;
-    top: 0;
-    bottom: 0;
+    bottom: -16px;
     width: 200px;
     height: 105vh;
     right: 42%;
@@ -266,4 +266,8 @@ img
     margin-left: -690px;
     margin-bottom: 300px;
     margin-top: 100px;
+}
+
+@media screen and (max-width: 1212px) {
+
 }
